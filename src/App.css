@@ -1,8 +1,19 @@
-.row{
+.row {
   width: 100%;
 }
+
 .rounder {
-    border: 2px solid #00A4BD;
-    padding: 10px;
-    border-radius: 12px;
-  }
+  border: 2px solid #00A4BD;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.img {
+  transition: transform 1s;
+  filter: grayscale(0.7);
+}
+
+.img:hover {
+  transform: scale(1.07);
+  filter: grayscale(0);
+}
